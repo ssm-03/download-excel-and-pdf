@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Download Table as Excel and PDF</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <table id="myTable">
+    <thead>
+      <tr>
+        <th>Header 1</th>
+        <th>Header 2</th>
+        <th>Header 3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table content goes here -->
+      <tr>
+        <td>Data 1</td>
+        <td>Data 2</td>
+        <td>Data 3</td>
+      </tr>
+      <tr>
+        <td>Data 4</td>
+        <td>Data 5</td>
+        <td>Data 6</td>
+      </tr>
+      <tr>
+        <td>Data 7</td>
+        <td>Data 8</td>
+        <td>Data 9</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <button onclick="downloadExcel()">Download Excel</button>
+  <button onclick="convertToPdf()">Download PDF</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.70/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.70/vfs_fonts.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

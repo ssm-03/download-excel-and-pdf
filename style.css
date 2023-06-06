@@ -1,0 +1,57 @@
+/* Custom CSS for the table */
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 2px solid #00BFA5;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #00BFA5;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #00BFA5;
+  }
+  
+  tr:nth-child(even) td {
+    color: white;
+  }
+  
+  tr:hover {
+    background-color: #6200EA;
+    color: white;
+  }
+  
+  tr:hover td {
+    border-color: #6200EA;
+  }
+  
+  button {
+    background-color: #00BFA5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #6200EA;
+  }
+  
+  button:active {
+    background-color: #304FFE;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
